@@ -1,3 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 # empty
+
+# Lack of indentation leads to "Format Error"
+
+dan:
+  name: Dan Example
+  email: dan@example.com
+  password_digest: <%= User.digest('password') %>
